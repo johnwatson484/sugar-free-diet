@@ -2,7 +2,11 @@
 
 MVC application to create and publish recipes.
 
-### Prerequisites
+## Status
+
+[![Build status](https://johnwatson484.visualstudio.com/John%20D%20Watson/_apis/build/status/Sugar%20Free%20Diet)](https://johnwatson484.visualstudio.com/John%20D%20Watson/_build/latest?definitionId=12)
+
+## Prerequisites
 
 Visual Studio
 SQL Server
