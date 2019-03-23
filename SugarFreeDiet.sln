@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarFreeDiet", "SugarFreeDiet\SugarFreeDiet.csproj", "{B5111971-212F-4A10-BF1F-6BF23F9F6D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarFreeDiet.Tests", "SugarFreeDiet.Tests\SugarFreeDiet.Tests.csproj", "{37BAB385-6AEA-4F8E-B64C-09760CB261F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5111971-212F-4A10-BF1F-6BF23F9F6D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5111971-212F-4A10-BF1F-6BF23F9F6D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5111971-212F-4A10-BF1F-6BF23F9F6D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5111971-212F-4A10-BF1F-6BF23F9F6D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BAB385-6AEA-4F8E-B64C-09760CB261F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BAB385-6AEA-4F8E-B64C-09760CB261F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BAB385-6AEA-4F8E-B64C-09760CB261F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BAB385-6AEA-4F8E-B64C-09760CB261F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC410646-A21B-4A44-92F9-6488A1F2FEE3}
+	EndGlobalSection
+EndGlobal
