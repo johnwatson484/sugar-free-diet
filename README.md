@@ -1,12 +1,10 @@
+[![Build status](https://johnwatson484.visualstudio.com/John%20D%20Watson/_apis/build/status/Sugar%20Free%20Diet)](https://johnwatson484.visualstudio.com/John%20D%20Watson/_build/latest?definitionId=12)
+
 # Sugar Free Diet
 
 Create and publish recipes.
 
 https://www.sugarfreehealthydiet.com/
-
-## Status
-
-[![Build status](https://johnwatson484.visualstudio.com/John%20D%20Watson/_apis/build/status/Sugar%20Free%20Diet)](https://johnwatson484.visualstudio.com/John%20D%20Watson/_build/latest?definitionId=12)
 
 ## Prerequisites
 
