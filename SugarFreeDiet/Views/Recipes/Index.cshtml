@@ -48,14 +48,16 @@ else
 
             <div class="col-md-4">
                 <div class="crop col-md-12">
-                    @if (recipe.Thumbnail != null)
-                    {
-                        <img class="recipe-image" src="data:image;base64,@System.Convert.ToBase64String(recipe.Thumbnail)" />
-                    }
-                    else
-                    {
-                        <img class="recipe-image" src="~/Content/Images/Placeholder.jpg" />
-                    }
+                    <a href="@Url.Action("Details", new { id = recipe.GenerateSlug() }))">
+                        @if (recipe.Thumbnail != null)
+                        {
+                            <img class="recipe-image" src="data:image;base64,@System.Convert.ToBase64String(recipe.Thumbnail)" />
+                        }
+                        else
+                        {
+                            <img class="recipe-image" src="~/Content/Images/Placeholder.jpg" />
+                        }
+                    </a>
                 </div>
                 <div class="col-md-12">
                     <h4>@Html.ActionLink(recipe.Title, "Details", new { id = recipe.GenerateSlug() })</h4>
